@@ -1,0 +1,47 @@
+# Secrets — NEVER commit these
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.mypy_cache/
+
+# Data files (huge, user-specific)
+data/uploads/*
+data/duckdb_cache/*
+data/temp_access_files/*
+!data/uploads/.gitkeep
+!data/duckdb_cache/.gitkeep
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups
+*.bak
+*.history.json
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

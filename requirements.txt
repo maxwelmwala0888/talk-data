@@ -1,0 +1,37 @@
+﻿fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+
+# Database (SQLite - built into Python, no driver needed)
+sqlalchemy==2.0.30
+alembic==1.13.1
+
+# Auth & Security
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-jose[cryptography]==3.3.0
+cryptography==42.0.8
+python-dotenv==1.0.1
+pydantic==2.7.4
+pydantic-settings==2.3.3
+email-validator==2.1.1
+
+# Data Processing
+pandas==2.2.2
+duckdb==1.0.0
+openpyxl==3.1.4
+pyarrow==16.1.0
+
+# Access DB (Windows only - comment out on Linux/Mac)
+pyodbc==5.1.0
+
+# AI / Gemini
+google-generativeai==0.7.2
+google-auth==2.32.0
+# --- Database drivers for user connections ---
+psycopg2-binary==2.9.9
+pymysql==1.1.1
+pyodbc==5.1.0
+snowflake-connector-python==3.12.2
+google-cloud-bigquery==3.25.0
+databricks-sql-connector==3.4.0
